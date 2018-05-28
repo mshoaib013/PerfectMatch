@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/perfectcover"
+    tools:context=".Welcome"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="90dp"
+        android:layout_height="120dp"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        />
+
+    <ImageView
+        android:layout_width="240dp"
+        android:layout_height="120dp"
+        android:src="@drawable/perfectmatch"
+        android:layout_gravity="center"
+        />
+        <ImageView
+            android:layout_width="240dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/login3"
+            android:layout_gravity="center"
+            />
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:src="@drawable/google3"
+                android:layout_gravity="center"
+                />
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="120dp"
+                android:src="@drawable/facebook3"
+                android:layout_gravity="center"
+                />
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Create New Account"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginBottom="10dp"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:textColor="#ff0000"/>
+    </LinearLayout>
+</LinearLayout>
