@@ -3,4 +3,8 @@
 
     <string name="dummy_button">Dummy Button</string>
     <string name="dummy_content">DUMMY\nCONTENT</string>
+
+    <string name="title_activity_sign_in_manually">signInManually</string>
+
+    <string name="title_activity_sign_up_manually">SignUpManually</string>
 </resources>

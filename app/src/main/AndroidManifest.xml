@@ -20,6 +20,16 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".signInManually"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sign_in_manually"
+            android:theme="@style/FullscreenTheme"></activity>
+        <activity
+            android:name=".SignUpManually"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_sign_up_manually"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>
